@@ -107,5 +107,60 @@ span{
 }
 /**box5**/
 .nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+/**panel**/
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    display:flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.panel-options p{
+    display:inline;
+    margin-left: 15px;
+}
+
+.panel-options{
+    width:70%;
+    font-size:0.85rem;
+}
+
+.panel-deals{
+    font-size:0.9rem;
+    font-weight: 700;
+}
+
+
+/**hero section**/
+
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height:600px;
+    background-size: cover;
+}
+
+.hero-msg{
+    background-color: white;
+    color:black;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+
+
+.hero-msg a{
+    color:#007185
 }
